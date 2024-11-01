@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Android WP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mdl/material.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style media="screen">
+            .demo-card-wide.mdl-card {
+                width: auto;
+                margin: 15px;
+            }
+            .demo-card-wide > .mdl-card__title {
+                color: #fff;
+                height: 176px;
+                background: url('mdl/welcome_card.jpg') center / cover;
+            }
+            .demo-card-wide > .mdl-card__menu {
+                color: #fff;
+            }
+
+            .custom--position {
+                position: fixed;
+                bottom: 15px;
+                right: 15px;
+                z-index: 10;
+            }
+
+            .mdl-layout__drawer .mdl-layout-title {
+                background: url('mdl/welcome_card.jpg') center / cover;
+                height: 80px;
+                color: #fff;
+                padding-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Always shows a header, even in smaller screens. -->
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <span class="mdl-layout-title" id="mdl-layout-title_id">Title</span>
+                    <!-- Add spacer, to align navigation to the right -->
+                    <div class="mdl-layout-spacer"></div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right is-upgraded" data-upgraded=",MaterialTextfield">
+                        <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp" data-upgraded=",MaterialButton">
+                            <i class="material-icons">search</i>
+                        </label>
+                        <div class="mdl-textfield__expandable-holder">
+                            <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+                        </div>
+                      </div>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">User Name</span>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">note</i> Post</a>
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">menu</i> Categories</a>
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">photo_library</i> Galleries</a>
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">favorite</i> Favorites</a>
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">content_copy</i> Pages</a>
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">store_mall_directory</i> Products</a>
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">shopping_cart</i> Shopping Cart</a>
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">help_outline</i> Questions</a>
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">forum</i> Forums</a>
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">group</i> Users</a>
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">assignment_turned_in</i> Sign In</a>
+                    <a class="mdl-navigation__link" href=""><i class="material-icons">create</i> Register</a>
+                </nav>
+            </div>
+            <main class="mdl-layout__content">
+                <div class="page-content">
+                    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Welcome</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Get Started</a>
+                        </div>
+                        <div class="mdl-card__menu">
+                            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                <i class="material-icons">share</i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Welcome</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Get Started</a>
+                        </div>
+                        <div class="mdl-card__menu">
+                            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                <i class="material-icons">share</i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Colored FAB button with ripple -->
+                    <button id="accent_id" class="custom--position mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-button--colored--accent">
+                        <i class="material-icons">add</i>
+                    </button>
+                </div>
+            </main>
+        </div>
+
+        <script src="mdl/material.min.js"></script>
+    </body>
+</html>

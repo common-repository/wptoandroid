@@ -1,0 +1,387 @@
+.material-icons{font-size:18px;}
+body {
+    background: transparent;
+}
+
+.wrap h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.header--settings .form-table th {
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+.header--settings .form-table td {
+    padding-left: 0;
+    display: block;
+    width: 100%;
+}
+
+.header--settings .form-table input[type="file"] {
+    color: transparent;
+}
+
+.header--settings .form-table input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.header--settings .form-table input[type="file"]::before {
+    content: 'SELECT FILE';
+    display: inline-block;
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+    border-radius: 3px;
+    padding: 10px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    width: 180px;
+    text-align: center;
+}
+.header--settings .form-table input[type="file"]:hover::before {
+    border: 1px solid #4cae4c;
+}
+.header--settings .form-table input[type="file"]:active::before {
+    background: #5cb85c;
+}
+
+.header--settings .form-table img {
+    width: 300px;
+    /*border: 1px solid #ccc;*/
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    padding: 6px;
+}
+
+.material-icons{font-size:18px;}
+body {
+    background: transparent;
+}
+
+.wrap h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-table th {
+    padding: 0;
+    /*width: auto;*/
+    vertical-align: middle;
+    height: 45px;
+    padding-bottom: 8px;
+}
+
+.form-table td {
+    padding: 0;
+    height: 38px;
+    padding-bottom: 4px;
+}
+.marvel-device {
+    display: inline-block;
+    position: relative;
+    box-sizing: content-box !important;
+}
+
+.marvel-device .screen {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    display: block;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 0 0 3px #111;
+    box-shadow: 0 0 0 3px #111;
+    background: #fff;
+}
+
+.marvel-device .top-bar,
+.marvel-device .bottom-bar {
+    height: 3px;
+    background: black;
+    width: 100%;
+    display: block
+}
+
+.marvel-device .middle-bar {
+    width: 3px;
+    height: 4px;
+    top: 0px;
+    left: 90px;
+    background: black;
+    position: absolute
+}
+
+.marvel-device.nexus5 {
+    padding: 50px 15px 50px 15px;
+    width: 320px;
+    height: 568px;
+    background: #1e1e1e;
+    -webkit-border-radius: 20px;
+    border-radius: 20px
+}
+
+.marvel-device.nexus5:before {
+    -webkit-border-radius: 600px / 50px;
+    border-radius: 600px / 50px;
+    background: inherit;
+    content: '';
+    top: 0;
+    position: absolute;
+    height: 103.1%;
+    width: calc(100% - 26px);
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.marvel-device.nexus5 .top-bar {
+    width: calc(100% - 8px);
+    height: calc(100% - 6px);
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: #181818
+}
+
+.marvel-device.nexus5 .top-bar:before {
+    -webkit-border-radius: 600px / 50px;
+    border-radius: 600px / 50px;
+    background: inherit;
+    content: '';
+    top: 0;
+    position: absolute;
+    height: 103.0%;
+    width: calc(100% - 26px);
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.marvel-device.nexus5 .bottom-bar {
+    display: none
+}
+
+.marvel-device.nexus5 .sleep {
+    width: 3px;
+    position: absolute;
+    left: -3px;
+    top: 110px;
+    height: 100px;
+    background: inherit;
+    -webkit-border-radius: 2px 0px 0px 2px;
+    border-radius: 2px 0px 0px 2px
+}
+
+.marvel-device.nexus5 .volume {
+    width: 3px;
+    position: absolute;
+    right: -3px;
+    top: 70px;
+    height: 45px;
+    background: inherit;
+    -webkit-border-radius: 0px 2px 2px 0px;
+    border-radius: 0px 2px 2px 0px
+}
+
+.marvel-device.nexus5 .camera {
+    background: #3c3d3d;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    z-index: 3;
+    margin-left: -5px;
+    -webkit-border-radius: 100%;
+    border-radius: 100%
+}
+
+.marvel-device.nexus5 .camera:before {
+    background: #3c3d3d;
+    width: 6px;
+    height: 6px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: -100px;
+    z-index: 3;
+    -webkit-border-radius: 100%;
+    border-radius: 100%
+}
+
+.wrap h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-table th {
+    padding: 0;
+    vertical-align: middle;
+    height: 45px;
+    padding-bottom: 8px;
+}
+
+.form-table td {
+    padding: 0;
+    height: 38px;
+    padding-bottom: 4px;
+}
+
+.form-control {
+    max-width: 300px;
+}
+
+.wrap h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.splash--settings .form-table th {
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+.splash--settings .form-table td {
+    padding-left: 0;
+    display: block;
+    width: 100%;
+}
+
+.splash--settings .form-table input[type="file"] {
+    color: transparent;
+}
+
+.splash--settings .form-table input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.splash--settings .form-table input[type="file"]::before {
+    content: 'SELECT FILE';
+    display: inline-block;
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+    border-radius: 3px;
+    padding: 10px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    width: 180px;
+    text-align: center;
+}
+.splash--settings .form-table input[type="file"]:hover::before {
+    border: 1px solid #4cae4c;
+}
+.splash--settings .form-table input[type="file"]:active::before {
+    background: #5cb85c;
+}
+
+.splash--settings .form-table img {
+    width: 200px;
+    /*border: 1px solid #ccc;*/
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    padding: 6px;
+}
+
+.icon--settings .form-table th {
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+.icon--settings .form-table td {
+    padding-left: 0;
+    display: block;
+    width: 100%;
+}
+
+.icon--settings .form-table input[type="file"] {
+    color: transparent;
+}
+
+.icon--settings .form-table input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.icon--settings .form-table input[type="file"]::before {
+    content: 'SELECT FILE';
+    display: inline-block;
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+    border-radius: 3px;
+    padding: 10px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    width: 180px;
+    text-align: center;
+}
+.icon--settings .form-table input[type="file"]:hover::before {
+    border: 1px solid #4cae4c;
+}
+.icon--settings .form-table input[type="file"]:active::before {
+    background: #5cb85c;
+}
+
+.icon--settings .form-table img {
+    width: 100px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    padding: 6px;
+}
+
+#progressbar .ui-progressbar-value {
+    background-color: #337ab7;
+}
+
+.welcome-panel li {
+font-size: 13px;
+color: #777
+}
+
+.wrap h1 {
+font-weight: bold;
+margin-bottom: 20px;
+}
+ul {list-style: circle;}
+ul li {margin-left:20px;}
